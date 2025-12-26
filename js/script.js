@@ -24,7 +24,7 @@ $('#play').click(function () {
 });
 var typed = new Typed("#typed", {
     stringsElement: '#typed-strings',
-    typeSpeed: 10,
+    typeSpeed: 5,
     backSpeed: 10,
     loop: true
 });

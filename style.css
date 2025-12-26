@@ -8,7 +8,7 @@
 }
 
 .loader button {
-    font-family: URW Chancery L, cursive;
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
     position: fixed;
     left: 50%;
     top: 45%;
@@ -135,8 +135,9 @@ img {
 
 
 .birthday-title {
-    font-size: 36px;
-    color: #ffffff;
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+    font-size: 40px;
+    color: #FFEE8C;
     letter-spacing: 2px;
     margin-bottom: -10px;
     font-weight: 600;

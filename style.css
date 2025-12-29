@@ -124,10 +124,10 @@ img {
 .cake {
     position: absolute;
     left: 50%;
+    top: 520px;        /* adjust this to move cake up/down */
     transform: translateX(-50%);
-    padding-top: 320px; /* increase this to move down */
+    width: 220px;      /* optional: control cake size */
 }
-
 
 
 .birthday-title {

@@ -23,24 +23,6 @@ $('#play').click(function () {
 
 });
 
-// Typed NAME effect
-var typedName;
-
-$('#play').click(function () {
-    if (c != null) {
-        document.getElementById("typed-strings").innerHTML =
-            "<h1>" + c + "</h1>";
-    }
-
-    typedName = new Typed("#typed-name", {
-        stringsElement: "#typed-strings",
-        typeSpeed: 140,
-        backSpeed: 0,
-        showCursor: false,
-        loop: false
-    });
-});
-
 var retina = window.devicePixelRatio,
 
     // Math shorthands

@@ -18,8 +18,8 @@ $('#play').click(function () {
     $(".birthday-message").addClass("pulse-active");
     sf.destroy();
     $('.balloon-border').animate({
-        top: -2000
-    }, 30000);
+        top: -1500
+    }, 35000);
 
 });
 

@@ -18,7 +18,7 @@ $('#play').click(function () {
     $(".birthday-message").addClass("pulse-active");
     sf.destroy();
     $('.balloon-border').animate({
-        top: -500
+        top: -1500
     }, 12000);
 
 });
@@ -78,7 +78,7 @@ document.addEventListener("DOMContentLoaded", function () {
         ribbonPaperCount = 15,
         ribbonPaperDist = 8.0,
         ribbonPaperThick = 8.0,
-        confettiPaperCount = 10,
+        confettiPaperCount = 12,
         DEG_TO_RAD = PI / 180,
         RAD_TO_DEG = 180 / PI,
         colors = [
